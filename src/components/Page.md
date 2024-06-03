@@ -9,13 +9,14 @@ console.log('Hello, World!');
 ```
 
 
-## Custom Component
 
-:::tip
-我是TIP~~~
+## Demo
+
+:::demo
+hello/basic
+>>>subs
+[hello/test]
+>>>
 :::
 
-:::warning
-我是WARNING~~~
-:::
 
