@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vunk/shared':
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: ^0.0.3
+        version: 0.0.3
       vitepress:
         specifier: ^1.2.2
         version: 1.2.2(@algolia/client-search@4.23.3)(@types/node@20.14.0)(postcss@8.4.38)(search-insights@2.14.0)(typescript@5.4.5)
@@ -749,8 +749,8 @@ packages:
   '@vueuse/shared@10.10.0':
     resolution: {integrity: sha512-2aW33Ac0Uk0U+9yo3Ypg9s5KcR42cuehRWl7vnUHadQyFvCktseyxxEPBi1Eiq4D2yBGACOnqLZpx1eMc7g5Og==}
 
-  '@vunk/shared@0.0.2':
-    resolution: {integrity: sha512-IoEFC25m5TUxC8k6d0WcR8hWS3wuAX1biznhtHVVh4bQsSzs+4L6fZAKOM8xJEhBe1BSpuG3/OfK8hLo0jO6Ng==}
+  '@vunk/shared@0.0.3':
+    resolution: {integrity: sha512-3rTGEO792pUCrf7b+oMOHVEyf9q1vYARyMaa6u5PvbNgB/gTDxEGlTYDNIuvYZsmzQEuyy2haeSKuJmkzqJQZw==}
 
   acorn@8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
@@ -2108,7 +2108,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vunk/shared@0.0.2': {}
+  '@vunk/shared@0.0.3': {}
 
   acorn@8.11.3: {}
 

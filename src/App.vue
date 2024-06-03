@@ -8,6 +8,6 @@ import Page from './components/Page.md'
 </template>
 <style>
 .app-page-x{
-  margin-left: 5em;
+ padding: 20px;
 }
 </style>
