@@ -4,12 +4,21 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import VueDevTools from 'vite-plugin-vue-devtools'
+import md from 'unplugin-vue-markdown/vite'
+import { anchorPlugin } from '@vunk/shared/markdown/plugins'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
+    vue({
+      include: [/\.vue$/, /\.md$/]
+    }),
     vueJsx(),
+    md({
+      markdownItSetup (mdit) {
+        mdit.use(anchorPlugin)
+      }
+    }),
     VueDevTools(),
   ],
   resolve: {

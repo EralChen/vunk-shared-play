@@ -4,13 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite -- --experimental-specifier-resolution=node",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@vunk/shared": "^0.0.1",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -19,8 +20,12 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/tsconfig": "^0.5.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.0.1",
+    "markdown-it-container": "^4.0.0",
     "npm-run-all2": "^6.1.2",
     "typescript": "~5.4.0",
+    "unplugin-vue-markdown": "^0.26.2",
     "vite": "^5.2.8",
     "vite-plugin-vue-devtools": "^7.0.25",
     "vue-tsc": "^2.0.11"
