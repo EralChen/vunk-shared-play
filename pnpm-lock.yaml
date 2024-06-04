@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vunk/shared':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       element-plus:
         specifier: ^2.7.4
         version: 2.7.4(vue@3.4.27(typescript@5.4.5))
@@ -791,8 +791,8 @@ packages:
   '@vueuse/shared@9.13.0':
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
 
-  '@vunk/shared@0.2.0':
-    resolution: {integrity: sha512-NqqTjxa12kgqoSoNCtwla+f6jA7QK1G1XjAF6o+NVr2lz5WmHdTkUqO/3d6+mrOR9Q+8WkCW3nJYv/nFsbwZng==}
+  '@vunk/shared@0.2.1':
+    resolution: {integrity: sha512-mlQTVMaOKjEXHmMIYgMsomii8QfsjiyHjkDx8+yEr9te+mSY2mfkuRJ7aJWsrpGACBZT1TfAKdyw/MOuzy4QmA==}
 
   acorn@8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
@@ -2230,7 +2230,7 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vunk/shared@0.2.0': {}
+  '@vunk/shared@0.2.1': {}
 
   acorn@8.11.3: {}
 

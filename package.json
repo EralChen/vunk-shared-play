@@ -11,7 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "@vunk/shared": "^0.2.0",
+    "@vunk/shared": "^0.2.1",
     "element-plus": "^2.7.4",
     "vitepress": "^1.2.2",
     "vue": "^3.4.21"

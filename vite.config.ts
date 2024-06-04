@@ -21,11 +21,7 @@ export default defineConfig({
           root: path.resolve(__dirname, './src/demos'),
           globSource: '**/*.vue'
         } as DemoContainerPluginSettings)
-
       },
-      wrapperClasses: [
-        'vp-doc'
-      ]
     }),
     VueDevTools(),
   ],
