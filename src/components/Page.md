@@ -8,4 +8,15 @@ This is a page component.
 console.log('Hello, World!');
 ```
 
+## demo
 
+:::demo
+Test
+:::
+
+
+## source
+
+:::source
+demos/Test
+:::
