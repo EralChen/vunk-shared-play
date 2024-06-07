@@ -19,3 +19,8 @@ console.log('Hello, World!');
 我是WARNING~~~
 :::
 
+## Details
+
+:::details test
+我是DETAILS~~~
+:::
