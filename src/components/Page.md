@@ -24,3 +24,7 @@ console.log('Hello, World!');
 :::details test
 我是DETAILS~~~
 :::
+
+## Link
+
+[Home](/)
