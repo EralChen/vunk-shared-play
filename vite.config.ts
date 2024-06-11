@@ -5,7 +5,8 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import VueDevTools from 'vite-plugin-vue-devtools'
 import md from 'unplugin-vue-markdown/vite'
-import { linkPlugin } from '@vunk/shared/markdown/plugins'
+import { sourceContainerPlugin, SourceContainerPluginSettings } from '@vunk/shared/markdown/plugins'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,10 +19,10 @@ export default defineConfig({
     vueJsx(),
     md({
       markdownItSetup (mdit) {
-        mdit.use(linkPlugin, {
-          base: '/test/',
-          cleanUrls: true
-        })
+        mdit.use(sourceContainerPlugin, {
+          root: path.resolve(__dirname, 'src'),
+          extnames: ['.vue']
+        } as SourceContainerPluginSettings)
       },
     }),
     VueDevTools(),
